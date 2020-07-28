@@ -1,0 +1,21 @@
+{
+    "name": "kasue/functions",
+    "description": "汎用的に使う関数群",
+    "type": "library",
+    "require": {
+        "ramsey/uuid": "^4.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kaz. Suenaga",
+            "email": "kaz-github@reg.kaz.bz"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4":{
+            "kasue\\functions\\": "src"
+        }
+    }
+}
